@@ -9,26 +9,27 @@ __Description__
 ## Important files
 
 * CRMLoggingAspect.java -> AOP class used for logging  
-    __
+    _src/com/luv2code/springdemo/aspect/CRMLoggingAspect.java_
 * CustomerController.java -> Main controller, mapps all http paths  
-    __
+    _src/com/luv2code/springdemo/controller/CustomerController.java_
 * CustomerDAO.java.java -> It's a DAO class to communicate with database  
-    __
+    _src/com/luv2code/springdemo/dao/CustomerDAO.java_
 * CustomerDAOImpl.java -> Implements all DAO methods, uses session factory for that  
-    __
+    _src/com/luv2code/springdemo/dao/CustomerDAOImpl.java_
 * Customer.java -> Entity class, all fields are mapped to DB columns  
-    __
+    _src/com/luv2code/springdemo/entity/Customer.java_
 * CustomerService.java -> Service layer, to connect with DAO  
-    __
+    _src/com/luv2code/springdemo/service/CustomerService.java_
 * CustomerServiceImpl.java -> Service implementation, handles transactional side of app  
-    __
+    _src/com/luv2code/springdemo/service/CustomerServiceImpl.java_
 * add-customer-style.css, style.css -> styles used for main page and "add customer" page  
-    __
+    _WebContent/resources/css/add-customer-style.css_
+    _WebContent/resources/css/style.css_
 * customer-form.jsp -> JSP view for adding new customer  
-    __
+    _WebContent/WEB-INF/view/customer-form.jsp_
 * list-customers.jsp -> JSP view for main page, customer table  
-    __
+    _WebContent/WEB-INF/view/list-customers.jsp_
 * spring-mvc-crud-demo-servlet.xml -> XML config file for DB connection, AOP and other  
-    __
+    _WebContent/WEB-INF/spring-mvc-crud-demo-servlet.xml_
 
 ### Other files are vendors data, supplied or found for this project purpose
